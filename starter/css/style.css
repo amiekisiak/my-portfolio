@@ -2,33 +2,66 @@
   box-sizing: border-box;
   padding: 0%;
   margin: 0;
+  transition: 0.5s;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align:center;
+  font-family:Arial, Helvetica, sans-serif;
   background-color: rgb(212, 184, 200);
 
 }
 
 header {
-  display: inline-block;
+  
+  display: flex;
   width: 100%;
-  padding: 70px;
-  border: 20px;
-  height: 60px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: rgb(146, 65, 221);
-  color: whitesmoke;
+  font-size: smaller;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #02075d;
 }
 
+header nav ul:hover{
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px;
+  margin:auto;
+  text-decoration:underline;
+  cursor:pointer;
+}
 .hero-banner {
-  display: inline-block;
+  display: flex;
+  flex-direction: row-reverse;
   width: 100%;
   background-image: url(/starter/images/02-hero-bg.jpg);
-  padding: 80px;
-  height: 200px;
+  padding: 100px;
+  height: 100px;
   background-size: cover;
+  color: blueviolet;
+} 
+
+.verticalLine{
+height:1000px;
+border-left: 1px solid sienna;
+position:absolute;
+left: 20%;
 }
+
+.verticalLine h2{
+left: 20%;
+
+}
+
+
+  section p{
+    display:flex;
+    justify-content: flex-start;
+    margin-block-end: auto;
+    font-size: larger;
+    color:crimson;
+    }
 
 
 header h1 {
@@ -51,19 +84,6 @@ header ul li {
   font-display: inherit;
 }
 
-
-.sidebar {
-  display: block;
-  margin: 0px;
-  font-size: xx-large;
-  color: black;
-
-
-}
-
-.article{ 
-display: inline;
-}
 
 
 .gridContainer {
@@ -137,11 +157,28 @@ display: inline;
 
 }
 
-.footer a {
+.footer{
   display: inline;
+  list-style: none;
   padding: 20px 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: initial;
   font-size: xx-large;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.footer h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display:flex;
+color: blue;
+text-decoration: none;
+}
+
+.footer section p{
+display:inline;
+float:right;
+justify-content: center;
+padding:10px ;
+margin: 10px;
+
 }
