@@ -1,23 +1,114 @@
+
+
 * {
   box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(212, 184, 200);
+
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  padding: 70px;
+  border: 20px;
+  height: 60px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
+  background-color: rgb(146, 65, 221);
+  color: whitesmoke;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.hero-banner {
+  display: inline-block;
+  width: 100%;
+  background-image: url(/starter/images/02-hero-bg.jpg);
+  padding: 80px;
+  height: 200px;
+  background-size: cover;
 }
 
-p {
-  margin: 0;
+
+header h1 {
+  display: inline-block;
+  padding: 20px;
+  font-size: 50px;
 }
+
+header ul {
+  list-style-type: none;
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 25px;
+  padding: 25px;
+  list-style-type: none;
+  font-size: x-large;
+  font-display: inherit;
+}
+
+.gridContainer {
+display: grid;
+align-content:center;
+padding: 200px;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas:
+
+"me me me me"
+"about about projects projects"
+"contact contact something something"
+
+
+
+}
+
+.me {
+display: grid;
+grid-area: me;
+
+
+}
+  
+
+.about {
+  display:grid;
+  grid-area: about;
+
+}
+  
+
+  .projects {
+    display: grid;
+ 
+  grid-area:projects;
+  
+}
+
+.contact {
+  display: grid;
+
+  grid-area: contact;
+  
+  }
+
+.something {
+  display:grid;
+
+  grid-area: something;
+ 
+
+}
+
+.footer a {
+  padding: 20px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
