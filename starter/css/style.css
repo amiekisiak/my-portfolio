@@ -61,6 +61,10 @@ header ul li {
 
 }
 
+.article{ 
+display: inline;
+}
+
 
 .gridContainer {
   display: grid;
@@ -83,6 +87,9 @@ header ul li {
 .me {
   display: grid;
   grid-area: me;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
 
 
 }
@@ -91,27 +98,41 @@ header ul li {
 .about {
   display: grid;
   grid-area: about;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+
 
 }
 
 
 .projects {
   display: grid;
-
   grid-area: projects;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+
 
 }
 
 .contact {
   display: grid;
-
   grid-area: contact;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+
 
 }
 
 .something {
   display: grid;
   grid-area: something;
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+
 
 
 }
