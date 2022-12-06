@@ -120,7 +120,7 @@ h5 {
   font-size: xx-large;
   text-align: right;
   margin-right: auto;
-  color: blue;
+  color: #8b008b;
   padding: 50px;
 }
 
@@ -144,7 +144,7 @@ h5 {
   grid-area: me;
   border-width: 5px;
   border-style: solid;
-  border-color: brown;
+  border-color: purple;
   cursor: pointer;
 }
 
@@ -153,7 +153,7 @@ h5 {
   grid-area: about;
   border-width: 5px;
   border-style: solid;
-  border-color: brown;
+  border-color: purple;
   cursor: pointer;
 
 
@@ -165,7 +165,7 @@ h5 {
   grid-area: projects;
   border-width: 5px;
   border-style: solid;
-  border-color: brown;
+  border-color: purple;
   cursor: pointer;
 
 
@@ -176,7 +176,7 @@ h5 {
   grid-area: contact;
   border-width: 5px;
   border-style: solid;
-  border-color: brown;
+  border-color: purple;
   cursor: pointer;
 
 
@@ -187,7 +187,7 @@ h5 {
   grid-area: something;
   border-width: 5px;
   border-style: solid;
-  border-color: brown;
+  border-color: purple;
   cursor: pointer;
 
 
@@ -200,6 +200,8 @@ h5 {
   font-style: initial;
   font-size: xx-large;
   text-decoration: none;
+  color:#8b008b;
+  cursor: pointer;
 }
 
 
@@ -209,6 +211,7 @@ h5 {
   justify-content: center;
   padding-bottom: 60px;
   margin: 40px;
+  text-decoration: underline;
 
 }
 
