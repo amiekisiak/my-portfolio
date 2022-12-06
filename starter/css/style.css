@@ -38,7 +38,7 @@ header h1 {
   padding: 20px;
   font-size: 50px;
 }
- 
+
 
 header ul {
   list-style-type: none;
@@ -80,32 +80,47 @@ section h2 {
 
 }
 
-main h2{
-display: flex;
-font-size:xx xx-large;
-position: absolute;
-color:blueviolet;
+h2 {
+  display: flex;
+  margin-top: 160px;
+  margin-left: 90px;
+  font-size: xx-large;
+  position: absolute;
+  color: blueviolet;
 
 }
 
+h3 {
+  display: flex;
+  font-size: xx-large;
+  margin-top: 550px;
+  margin-left: 80px;
+  position: absolute;
+  color: blueviolet;
+}
+
+h4 {
+  display: flex;
+  position:absolute;
+  margin-top: 1725px;
+  color: blueviolet;
+  font-size: xx-large;
+  margin-left: 100px;
+  text-decoration: none;
+}
 
 
 .myStory {
   display: inline;
   float: right;
+  margin-left: 200px;
+  margin-top: 100px;
   font-size: larger;
   text-align: right;
   margin-right: auto;
   color: blue;
   padding: 50px;
 }
-
-main h3{
-  display: flex;
-  font-size: xx-large;
-  position: absolute;
-  color: blueviolet;
-  }
 
 .gridContainer {
   display: grid;
@@ -120,9 +135,6 @@ main h3{
     "me me me me"
     "about about projects projects"
     "contact contact something something"
-
-
-
 }
 
 .me {
@@ -131,10 +143,7 @@ main h3{
   border-width: 5px;
   border-style: solid;
   border-color: brown;
-
-
 }
-
 
 .about {
   display: grid;
@@ -181,25 +190,18 @@ main h3{
 .footer {
   display: inline;
   list-style: none;
-  padding: 20px 40px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: initial;
   font-size: xx-large;
   text-decoration: none;
 }
 
-.footer h2 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: flex;
-  color: blue;
-  text-decoration: none;
-}
 
-.footer section p {
+.footer p {
   display: inline;
   float: right;
   justify-content: center;
-  padding: 10px;
-  margin: 10px;
+  padding-bottom: 60px;
+  margin: 40px;
 
 }
