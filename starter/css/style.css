@@ -17,17 +17,17 @@ header {
 
   display: flex;
   width: 100%;
-  font-size: large;
+  font-size: xx-large;
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #8b008b;
 }
 
-header nav ul:hover {
+header nav ul {
   display: inline-flex;
-  justify-content: center;
   padding: 10px;
-  margin: auto;
+  margin-left: 300px;
+  float:right;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -82,7 +82,7 @@ header ul li {
 
 nav h2 {
   display: flex;
-  float: left;
+  float: right;
   font-size: 300%;
 
 }
@@ -91,6 +91,7 @@ h3 {
   display: flex;
   margin-top: 160px;
   margin-left: 90px;
+  font-style: underline;
   font-size: xx-large;
   position: absolute;
   color: blueviolet;
@@ -102,6 +103,7 @@ h4 {
   font-size: xx-large;
   margin-top: 680px;
   margin-left: 80px;
+  font-style: underline;
   position: absolute;
   color: blueviolet;
 }
@@ -109,7 +111,8 @@ h4 {
 h5 {
   display: flex;
   position:absolute;
-  margin-top: 1900px;
+  margin-top: 1935px;
+  font-style:underline;
   color: blueviolet;
   font-size: xx-large;
   margin-left: 100px;
