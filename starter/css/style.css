@@ -9,7 +9,7 @@ body {
   width: 100%;
   text-align: right;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(212, 184, 200);
+  background-color: rgb(212, 177, 205);
 
 }
 
@@ -20,7 +20,7 @@ header {
   font-size: smaller;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #02075d;
+  background-color: #8b008b;
 }
 
 header nav ul:hover {
@@ -31,6 +31,29 @@ header nav ul:hover {
   text-decoration: underline;
   cursor: pointer;
 }
+
+
+header h1 {
+  display: inline-block;
+  padding: 20px;
+  font-size: 50px;
+}
+ 
+
+header ul {
+  list-style-type: none;
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 25px;
+  padding: 25px;
+  list-style-type: none;
+  font-size: x-large;
+  font-display: inherit;
+}
+
 
 .hero-banner {
   display: flex;
@@ -48,47 +71,41 @@ header nav ul:hover {
   border-left: 1px solid sienna;
   position: absolute;
   left: 20%;
+
 }
 
-section h2{
+section h2 {
+  display: flex;
+  float: left;
+
+}
+
+main h2{
 display: flex;
-float: left;
+font-size:xx xx-large;
+position: absolute;
+color:blueviolet;
 
 }
 
 
-section p{
+
+.myStory {
   display: inline;
   float: right;
   font-size: larger;
-  text-align:right;
+  text-align: right;
   margin-right: auto;
-  color: rgb(128, 0, 64);
+  color: blue;
   padding: 50px;
 }
 
-
-header h1 {
-  display: inline-block;
-  padding: 20px;
-  font-size: 50px;
-}
-
-header ul {
-  list-style-type: none;
-  float: right;
-}
-
-header ul li {
-  display: inline-block;
-  margin-left: 25px;
-  padding: 25px;
-  list-style-type: none;
-  font-size: x-large;
-  font-display: inherit;
-}
-
-
+main h3{
+  display: flex;
+  font-size: xx-large;
+  position: absolute;
+  color: blueviolet;
+  }
 
 .gridContainer {
   display: grid;
