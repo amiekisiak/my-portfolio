@@ -66,6 +66,7 @@ header ul li {
   color: blueviolet;
 }
 
+
 .verticalLine {
   height: 1000px;
   border-left: 1px solid sienna;
@@ -80,7 +81,7 @@ section h2 {
 
 }
 
-h2 {
+h3 {
   display: flex;
   margin-top: 160px;
   margin-left: 90px;
@@ -90,7 +91,7 @@ h2 {
 
 }
 
-h3 {
+h4 {
   display: flex;
   font-size: xx-large;
   margin-top: 550px;
@@ -99,7 +100,7 @@ h3 {
   color: blueviolet;
 }
 
-h4 {
+h5 {
   display: flex;
   position:absolute;
   margin-top: 1725px;
