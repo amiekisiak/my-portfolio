@@ -20,7 +20,7 @@ header {
   font-size: 200px;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color:darkmagenta;
+  background-color: purple;
 }
 
 header nav ul {
@@ -64,7 +64,7 @@ header ul li {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  background-image: url(/starter/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  background-image: url(/images/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
   padding: 130px;
   height: 100px;
   background-size: cover;
