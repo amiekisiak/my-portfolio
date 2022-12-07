@@ -10,8 +10,8 @@ body {
   text-align: right;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(212, 177, 205);
-
 }
+
 
 header {
 
@@ -27,16 +27,20 @@ header nav ul {
   display: inline-flex;
   padding: 10px;
   margin-left: 300px;
-  float:right;
+  float: right;
   text-decoration: underline;
   cursor: pointer;
+
 }
 
 
 header h1 {
   display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
   font-size: xx-large;
+  color: black;
+
 
 }
 
@@ -61,7 +65,7 @@ header ul li {
   flex-direction: row-reverse;
   width: 100%;
   background-image: url(/starter/images/02-hero-bg.jpg);
-  padding: 100px;
+  padding: 130px;
   height: 100px;
   background-size: cover;
   color: blueviolet;
@@ -89,44 +93,44 @@ nav h2 {
 
 h3 {
   display: flex;
-  margin-top: 160px;
-  margin-left: 90px;
+  margin-top: 50px;
+  margin-left: 75px;
   font-style: underline;
   font-size: xx-large;
   position: absolute;
   color: blueviolet;
+  text-decoration: underline;
 
 }
 
 h4 {
   display: flex;
   font-size: xx-large;
-  margin-top: 680px;
+  margin-top: 640px;
   margin-left: 80px;
   font-style: underline;
   position: absolute;
   color: blueviolet;
+  text-decoration: underline;
 }
 
 h5 {
   display: flex;
-  position:absolute;
-  margin-top: 1935px;
-  font-style:underline;
+  position: absolute;
+  margin-top: 1915px;
+  text-decoration: underline;
   color: blueviolet;
   font-size: xx-large;
   margin-left: 100px;
-  text-decoration: none;
 }
 
 
 .myStory {
-  display: inline;
-  float: right;
+  display: flex;
   margin-left: 200px;
-  margin-top: 110px;
+  margin-top: 100px;
   font-size: xx-large;
-  text-align: right;
+  text-align: center;
   margin-right: auto;
   color: #8b008b;
   padding: 50px;
@@ -138,6 +142,7 @@ h5 {
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   padding: 300px;
+  float: right;
   grid-template-columns: repeat(2, 2fr, 1fr);
   grid-template-rows: 1fr;
   grid-template-areas:
@@ -213,7 +218,7 @@ h5 {
   font-style: initial;
   font-size: xx-large;
   text-decoration: none;
-  color:#8b008b;
+  color: #8b008b;
 
 }
 
@@ -227,4 +232,3 @@ h5 {
   text-decoration: underline;
 
 }
-
