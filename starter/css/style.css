@@ -17,10 +17,10 @@ header {
 
   display: flex;
   width: 100%;
-  font-size: xx-large;
+  font-size: 200px;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #8b008b;
+  background-color:darkmagenta;
 }
 
 header nav ul {
@@ -64,7 +64,7 @@ header ul li {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  background-image: url(/starter/images/02-hero-bg.jpg);
+  background-image: url(/starter/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
   padding: 130px;
   height: 100px;
   background-size: cover;
@@ -78,7 +78,7 @@ header ul li {
 .verticalLine {
   height: 1600px;
   margin-top: 120px;
-  border-left: 1px solid sienna;
+  border-left: 1px solid purple;
   position: absolute;
   left: 20%;
 
@@ -106,7 +106,7 @@ h3 {
 h4 {
   display: flex;
   font-size: xx-large;
-  margin-top: 640px;
+  margin-top: 500px;
   margin-left: 80px;
   font-style: underline;
   position: absolute;
@@ -117,7 +117,7 @@ h4 {
 h5 {
   display: flex;
   position: absolute;
-  margin-top: 1915px;
+  margin-top: 1800px;
   text-decoration: underline;
   color: blueviolet;
   font-size: xx-large;
@@ -127,9 +127,9 @@ h5 {
 
 .myStory {
   display: flex;
-  margin-left: 200px;
-  margin-top: 100px;
-  font-size: xx-large;
+  margin-left: 250px;
+  margin-top: 200px;
+  font-size: x-large;
   text-align: center;
   margin-right: auto;
   color: #8b008b;
