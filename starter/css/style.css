@@ -106,7 +106,7 @@ h3 {
 h4 {
   display: flex;
   font-size: xx-large;
-  margin-top: 500px;
+  margin-top: 250px;
   margin-left: 80px;
   font-style: underline;
   position: absolute;
@@ -117,11 +117,11 @@ h4 {
 h5 {
   display: flex;
   position: absolute;
-  margin-top: 1800px;
+  margin-top: 1670px;
   text-decoration: underline;
   color: blueviolet;
   font-size: xx-large;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 
@@ -136,12 +136,12 @@ h5 {
   padding: 50px;
 }
 
-.gridContainer {
+ .gridContainer {
   display: grid;
   align-content: space-between;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
-  padding: 300px;
+  padding: 30px;
   float: right;
   grid-template-columns: repeat(2, 2fr, 1fr);
   grid-template-rows: 1fr;
@@ -216,7 +216,7 @@ h5 {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   font-style: initial;
-  font-size: xx-large;
+  font-size: x-large;
   text-decoration: none;
   color: #8b008b;
 
@@ -227,8 +227,9 @@ h5 {
   display: inline;
   float: right;
   justify-content: center;
+  padding-top: 400px;
   padding-bottom: 60px;
-  margin: 40px;
+  margin: 50px;
   text-decoration: underline;
 
 }
