@@ -20,11 +20,12 @@ header {
   font-size: 200px;
   justify-content: flex-start;
   align-items: flex-start;
+  opacity: 0.7;
   background-color: purple;
 }
 
 header nav ul {
-  display: inline-flex;
+  display:flex;
   padding: 10px;
   margin-left: 300px;
   float: right;
@@ -74,15 +75,6 @@ header ul li {
 
 
 
-
-.verticalLine {
-  height: 1600px;
-  margin-top: 120px;
-  border-left: 1px solid purple;
-  position: absolute;
-  left: 20%;
-
-}
 
 nav h2 {
   display: flex;
@@ -212,7 +204,7 @@ h5 {
 }
 
 .footer {
-  display: inline;
+  display: flex;
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   font-style: initial;
