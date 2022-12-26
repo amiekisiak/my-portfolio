@@ -25,7 +25,7 @@ header {
 }
 
 header nav ul {
-  display:flex;
+  display: flex;
   padding: 10px;
   margin-left: 300px;
   float: right;
@@ -45,7 +45,6 @@ header h1 {
 
 }
 
-
 header ul {
   list-style-type: none;
   float: right;
@@ -60,21 +59,29 @@ header ul li {
   font-display: inherit;
 }
 
-
 .hero-banner {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
   background-image: url(/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
-  padding: 130px;
+  padding: 100px;
   height: 100px;
   background-size: cover;
   color: blueviolet;
   opacity: 0.7;
 }
 
+.profile_picture {
 
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgba(255, 255, 255, .5);
+  margin-right: 50%;
+  margin-bottom: 80%;
+  border-radius: 50%;
 
+}
 
 nav h2 {
   display: flex;
@@ -82,6 +89,14 @@ nav h2 {
   font-size: 300%;
 
 }
+
+/*main section*/
+
+.pageWrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
+
 
 h3 {
   display: flex;
@@ -116,9 +131,9 @@ h5 {
   margin-left: 50px;
 }
 
-
 .myStory {
   display: flex;
+  text-align: right;
   margin-left: 250px;
   margin-top: 200px;
   font-size: x-large;
@@ -128,80 +143,58 @@ h5 {
   padding: 50px;
 }
 
- .gridContainer {
+.gridContainerWork {
   display: grid;
-  align-content: space-between;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  padding: 30px;
-  float: right;
-  grid-template-columns: repeat(2, 2fr, 1fr);
-  grid-template-rows: 1fr;
+  flex: 5;
+  padding: 5px 15px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 500px 200px 200px;
   grid-template-areas:
-
-    "me me me me"
-    "about about projects projects"
-    "contact contact something something"
+    'project1 project1'
+    'project2 project3'
+    'project4 project5'
+  ;
+  grid-gap: 15px;
 }
 
-.prework {
-  display: grid;
-  grid-area: me;
-  border-width: 5px;
+.project1 {
+  grid-area: project1;
   border-style: solid;
+  border-width: 5px;
   border-color: purple;
   cursor: pointer;
   opacity: 0.7;
 }
 
-.horiseon {
-  display: grid;
-  grid-area: about;
-  border-width: 5px;
-  border-style: solid;
-  border-color: purple;
+
+.project2 {
+  grid-area: project2;
   cursor: pointer;
-  opacity: 0.7;
-
-
+  border-width: 5px;
 }
 
-
-.projects {
-  display: grid;
-  grid-area: projects;
-  border-width: 5px;
-  border-style: solid;
-  border-color: purple;
-  cursor: pointer;
-  opacity: 0.7;
-
-
+.project3 {
+  grid-area: project3;
 }
 
-.contact {
-  display: grid;
-  grid-area: contact;
-  border-width: 5px;
-  border-style: solid;
-  border-color: purple;
-  cursor: pointer;
-  opacity: 0.7;
-
-
+.project4 {
+  grid-area: project4;
 }
 
-.something {
-  display: grid;
-  grid-area: something;
-  border-width: 5px;
-  border-style: solid;
-  border-color: purple;
-  cursor: pointer;
-  opacity: 0.7;
-
-
+.project5 {
+  grid-area: project5;
 }
+
+.projectName {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.2rem;
+  position: absolute;
+  border: 5px solid;
+  left: 0;
+  bottom: 20px;
+}
+
 
 .footer {
   display: flex;
