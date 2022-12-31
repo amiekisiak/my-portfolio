@@ -87,12 +87,12 @@ header h1 {
 .hero-banner {
   display: flex;
   flex-direction: row-reverse;
-  background-image: url(/images/02-hero-bg.jpg);
+  background-size: cover;
+  background-image: url('/images/jr-korpa-9XngoIpxcEo-unsplash.jpg');
   width: 100%;
-  font-size: 1.9rem;
+  font-size: 2rem;
   padding: 110px;
   height: 100px;
-  background-size: cover;
   color: var(--color2);
   
 }
