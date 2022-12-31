@@ -300,7 +300,16 @@ h2 {
   padding-top: 5px;
 }
 
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+
 .contact:hover {
+  color: rgba(239, 32, 222, 0.746);
+}
+
+.contact a:hover {
   color: rgba(239, 32, 222, 0.746);
 }
 
