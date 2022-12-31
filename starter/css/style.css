@@ -87,9 +87,9 @@ header h1 {
 .hero-banner {
   display: flex;
   flex-direction: row-reverse;
+  background-image: url(./images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
   width: 100%;
   font-size: 2rem;
-  background-image: url(/images/jr-korpa-4DykvhW8SsI-unsplash.jpg);
   padding: 110px;
   height: 100px;
   background-size: cover;
