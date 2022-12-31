@@ -1,4 +1,4 @@
-#README
+# my-portfolio
 
 ## Description
 This project requires creation of a professional portfolio website.
@@ -15,9 +15,9 @@ N/A
 
 
 
-Credits
+## Credits
 N/A
 
-License
+## License
 Licensed under the MIT license.
 
