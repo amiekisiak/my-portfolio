@@ -1,13 +1,18 @@
 #README
 
 ## Description
-This project requires creation of a professional portfolio website.I have linked all links with corresponding sections of the webiste. Also, I have linked all the external links to my projects.I have added some responsible layout elements.
+This project requires creation of a professional portfolio website.
+All the corresponding sections and all the external links of the website were linked to this projects.I have also added some responsible layout elements to make the layout responsive.
 
 
 ## Installation
 N/A
 
 ## Usage
+ URL of the deployed webpage:
+ Screenshot: 
+
+
 
 
 Credits

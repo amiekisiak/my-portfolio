@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   padding: 0%;
@@ -6,16 +5,17 @@
   transition: 0.5s;
 }
 
-:root{
---color1: violet;
---color2:purple;
+:root {
+  --color1: violet;
+  --color2: purple;
+  --color3: rgb(99, 0, 101);
+  --color4: rgb(82, 1, 97);
 }
 
 body {
   width: 100%;
-  text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--color2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color3);
 }
 
 /*header section*/
@@ -24,44 +24,63 @@ header {
 
   display: flex;
   width: 100%;
-  font-size: 20px;
   justify-content: flex-start;
   align-items: flex-start;
   opacity: 0.7;
-  background-color: var(--color1)
+  background-color: var(--color4);
 }
-
-
 
 header h1 {
 
-  display: inline-block;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 2.2rem;
+  background-color: rgb(62, 25, 62);
   padding: 20px;
-  font-size: xx-large;
+
 }
 
-header ul {
-  display: flex;
-  padding: 10px;
-  margin-left: 300px;
-  float: right;
-  text-decoration: underline;
+/*navbar*/
+
+.navbar a {
+  display: inline-flex;
+  color: white;
+  list-style-type: none;
+  margin: -100px;
+  margin-top: 24px;
+  margin-left: 200px;
+  font-size: 1.4rem;
   cursor: pointer;
 
 }
 
-
-header ul li {
-  display: inline-block;
-  margin-left: 25px;
-  padding: 25px;
-  list-style-type: none;
-  font-size: x-large;
-  font-display: inherit;
+.navbar a:hover {
+  color: rgba(239, 32, 222, 0.746);
 }
 
 
+@media screen and (max-width: 720px) {
+  header {
+    display: flex;
+    width: 100%;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  header h1 {
+    padding: 0 5px;
+    font-size: 0.9rem;
+  }
+
+  .navbar a {
+    display: none;
+    margin: 0 5px;
+    font-size: 0.8rem;
+  }
+}
 
 /* hero banner */
 
@@ -69,18 +88,20 @@ header ul li {
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  background-image: url(/my-portfolio/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
-  padding: 100px;
+  font-size: 2rem;
+  background-image: url(/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  padding: 110px;
   height: 100px;
   background-size: cover;
-  color: blueviolet;
-  opacity: 0.7;
+  color: var(--color2);
+  opacity: 0.8;
 }
+
 
 .profile_picture {
 
   display: flex;
-  position:absolute;
+  position: absolute;
   width: 175px;
   height: 175px;
   border: 5px solid rgba(255, 255, 255, .5);
@@ -90,54 +111,101 @@ header ul li {
 
 }
 
+@media screen and (max-width: 720px) {
+  .hero-banner {
+    width: 100%;
+    padding: 50px;
+    font-size: 1rem;
+  }
+
+  .profile_picture {
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+  }
+}
+
 
 /* Main content */
 
 .pageWrapper {
   width: 90vw;
   margin: 0 auto;
-  color: var(--color2);
+
 }
+
+
+@media screen and (max-width: 940px) {
+  .pageWrapper {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
 
 
 .aboutMe {
   display: flex;
-  margin-left: 250px;
-  margin-top: 50px;
-  font-size: x-large;
-  text-align: center;
+  margin-left: 190px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  background-color: var(--color4);
+  font-size: 1.2rem;
+  text-align: justify;
   margin-right: auto;
   color: white;
-  padding: 50px;
-  }
-  
-
-
-.sectionName {
-  flex: 1;
-  border-right: 3px solid var(--color2);
-  padding: 5px 15px;
-  text-align: right;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: flex-end;
+  padding: 60px;
 }
+
+
+@media screen and (max-width: 720px) {
+  .aboutMe {
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+}
+
+h2 {
+  position: absolute;
+  font-size: 2.2rem;
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  h2 {
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: -18px;
+  }
+}
+
 
 
 .gridContainer {
   display: grid;
+  padding-left: 180px;
+  padding-bottom: 120px;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   grid-template-rows: 500px 200px 200px;
   grid-template-areas:
     'project1 project1'
     'project2 project3'
     'project4 project5'
   ;
-  grid-gap: 15px;
+
 }
+
 
 .project1 {
   grid-area: project1;
+  cursor: pointer;
 }
 
 .project2 {
@@ -147,9 +215,10 @@ header ul li {
 
 .project3 {
   grid-area: project3;
+  cursor: pointer;
 }
 
-.project4{
+.project4 {
   grid-area: project4;
 }
 
@@ -158,6 +227,23 @@ header ul li {
 }
 
 
+@media screen and (max-width: 720px) {
+  .gridContainer {
+    display: grid;
+    flex: 5;
+    padding: 15px 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+      'project1'
+      'project2'
+      'project3'
+      'project4'
+      'project5'
+    ;
+  }
+}
+
 .project {
   position: relative;
   border: 5px solid rgba(255, 255, 255, .5);
@@ -165,17 +251,21 @@ header ul li {
 }
 
 .projectName {
-  background-color: var(--color2);
+  background-color: var(--color3);
+  color: white;
+  opacity: 0.7;
   display: inline-block;
-  padding: 10px;
+  position: absolute;
+  padding: 5px 10px;
   font-size: 1.2rem;
   position: absolute;
-  border: 5px solid var(--color2);
+  border: 5px solid var(--color3);
   left: 0;
   bottom: 20px;
+
 }
 
-.project img{
+.project img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -188,35 +278,38 @@ header ul li {
   opacity: 1;
 }
 
+/*Contact section*/
 
-/* Contact */
-
-.contact {
-  margin-bottom: 70px;
-}
-
-.contactInfo {
+.SectionContact {
   display: flex;
+  padding-left: 200px;
   flex-wrap: wrap;
+  margin-bottom: 70px;
   width: 100%;
   justify-content: space-around;
-}
-
-.detail {
-  list-style: none;
-  margin-right: 20px;
-  border-bottom: 2px solid var(--primary-dark);
-  padding: 3px;
-}
-
-.detail:hover {
-  box-shadow: 0px 0, -0.3em 0 0.1em var(--primary-blue);
-}
-
-.social {
   text-decoration: none;
+
 }
 
+.contact {
+  list-style: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  border-bottom: 2px solid var(--color1);
+  padding-top: 5px;
+}
+
+.contact:hover {
+  color: rgba(239, 32, 222, 0.746);
+}
+
+@media screen and (max-width: 720px) {
+  .contact {
+    display: column;
+    justify-content: space-around;
+  }
+}
 
 /* Footer */
 
@@ -226,102 +319,6 @@ header ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color1);
-  color: var(--color1)
-}
-
-
-@media screen and (max-width: 940px) {
-  .pageWrapper {
-    width: 100%;
-    padding: 5px;
-  }
-
-  .sectionTitle {
-    font-size: 1.3rem;
-    padding: 5px 10px;
-  }
-
-  /* Contact */
-
-  .contactInfo {
-    justify-content: flex-start;
-  }
-
-  .detail {
-    width: 50%;
-    margin: 5px;
-    border: none;
-  }
-}
-
-
-@media screen and (max-width: 720px) {
-  .largeLogo {
-    display: none;
-  }
-
-  .smallLogo {
-    display: inline;
-  }
-
-  #header h1 {
-    padding: 0 5px 0 20px;
-    line-height: 1.1;
-    font-size: 1.4rem;
-  }
-
-  .navLink {
-    margin: 0 5px;
-    list-style: none;
-    border-bottom: 1px solid var(--primary-blue);
-    font-size: 0.9rem;
-  }
-
-
-  /* Greetings */
-
-  .greettings {
-    padding: 30px 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .greettingsContent {
-    width: 100%;
-    padding: 20px;
-    margin-top: 10px;
-  }
-
-  .pageSection {
-    margin-top: 60px;
-    flex-direction: column;
-  }
-
-  .sectionTitle {
-    flex: 1;
-    border-bottom: 2px solid var(--secondary-dark);
-    border-right: none;
-    padding: 5px 0;
-    text-align: center;
-    font-size: 1.4rem;
-    justify-content: center;
-  }
-
-  .gridContainerWork {
-    display: grid;
-    flex: 5;
-    padding: 15px 5px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 300px 200px 200px 200px 200px;
-    grid-template-areas:
-      'project1'
-      'project2'
-      'project3'
-      'project4'
-      'project5'
-    ;
-  }
+  background-color: var(--color4);
+  color: white;
 }

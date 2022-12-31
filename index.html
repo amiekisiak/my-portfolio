@@ -1,104 +1,119 @@
 <div lang="en-gb">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.5">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="starter/css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="starter/css/style.css">
+  </head>
 
-
-
-<div>
-  <!-- main logo / nav -->
-  <header>
-    <nav>
+  <div>
+    <!-- header section/navbar -->
+    <header>
       <h1>Aleksandra Miekisiak</h1>
-      <ul>
-        <li><a href="#myStory" class="btn">About Me</a></li>
-        <li><a href="#gridContainer" class="btn">Projects</a></li>
-        <li><a href="#footer" class="btn">Contact</a></li>
-      </ul>
+      <nav class="navbar">
+        <ul>
+          <a href="#about">About Me</a>
+          <a href="#sectionName">Projects</a>
+          <a href="#footer">Contact</a>
+        </ul>
 
+      </nav>
+    </header>
+    <!-- hero banner -->
+
+    <nav class="hero-banner">
+      <h2>Hi There!</h2>
+      <img class="profile_picture" src="./images/ola.jpg">
     </nav>
-  </header>
-
-  <nav class="hero-banner">
-    <h2>Welcome</h2>
-    <img class="profile_picture" src="./images/ola.jpg">
-  </nav>
-
-  <div class = pageWrapper>
 
 
-  
-   <section class="aboutMe" section id="about">
-      <p>
-        I am a passionate junior front-end web developer
-        willing to learn and grow in a collaborative
-        environment. I am currently attending Trilogy Skills Bootcamp
-        in Front-End Development, which allows me to improve my skill set.
-        Also, I am open to participation in new projects.
+    <!--main content-->
 
-      </p>
-    </section class = workSection id=work>
-    <div class = "sectionName">
-      <h2>Work</h2>
-      </div>
-    
-      <div class="gridContainer gridContainerWork">
+    <main>
 
-      <div class="project project1"><img src="./images/screencapture-127-0-0-1-5555-index-html-2022-12-13-00_50_31.png"><a
-          href="https://amiekisiak.github.io/prework-study-guide/"></a>
-          <div class="ProjectName">
-            <h3>Bootstrap-Portfolio</h3>
+      <div class=pageWrapper>
+        <h2>About Me</h2>
+        <section class="aboutMe" section id="about">
+
+          <p>
+            I am a passionate junior front-end web developer
+            willing to learn and grow in a collaborative
+            environment. I am currently attending Trilogy Skills Bootcamp
+            in Front-End Development, which allows me to improve my skill set.
+            Also, I am open to participation in new projects.
+
+          </p>
+        </section>
+
+        <div class="sectionName" section id="sectionName">
+          <h2>Projects</h2>
+        </div>
+        <div class="gridContainer gridContainerWork">
+
+          <div class="project project1"><img
+              src="./images/screencapture-127-0-0-1-5555-index-html-2022-12-13-00_50_31.png" a
+              href="https://amiekisiak.github.io/Bootstrap-Portfolio/"></a>
+            <div class="ProjectName">
+              <h3>Bootstrap-Portfolio</h3>
+              <h4>HTML/CSS</h4>
+            </div>
           </div>
-          </div>
 
-        <div class="project project2"><img src="./images/screenshot.png.png">
-          <a href="https://amiekisiak.github.io/project-horiseon/"></a>
+          <div class="project project2"><img src="./images/screenshot.png.png"
+            a href="https://amiekisiak.github.io/project-horiseon/#/"></a>
             <div class="ProjectName">
               <h3>project-horiseon</h3>
-           </div>
+              <h4>HTML</h4>
+            </div>
           </div>
 
-        <div class="project project3"><img src="./images/screencapture-amiekisiak-github-io-prework-study-guide-2022-12-26-20_39_28.png">
-          <a href="https://amiekisiak.github.io/prework-study-guide/"></a>
+          <div class="project project3">
+            <img src="./images/screencapture-amiekisiak-github-io-prework-study-guide-2022-12-26-20_39_28.png" a
+              href="https://amiekisiak.github.io/prework-study-guide/#"></a>
+              <div class="ProjectName">
+                <h3>prework-study-guide</h3>
+                <h4>HTML</h4>
+              </div>
+            </div>
+          
+
+          <div class="project project4"><img src="images/luke-chesser-eICUFSeirc0-unsplash.jpg">
+            <a href="https://github.com/amiekisiak"></a>
             <div class="ProjectName">
-            <h3>prework-study-guide</h3>
-        </div>
-      </div>
+              <h3>Future Project</h3>
+            </div>
+          </div>
 
-        <div class="project project4"><img src="/my-portfolio/images/jr-korpa-4DykvhW8SsI-unsplash.jpg">
-          <a href="https://github.com/amiekisiak"></a>
+          <div img class="project project5"><img src="images/jr-korpa-4DykvhW8SsI-unsplash.jpg">
+            <a href="https://github.com/amiekisiak/"></a>
             <div class="ProjectName">
-            <h3>Future Project</h3>
+              <h3>Future Project</h3>
+            </div>
+          </div>
         </div>
-      </div>
-
-        <div img class="project project5"><img src="/my-portfolio/images/luke-chesser-eICUFSeirc0-unsplash.jpg">
-          <a href="https://github.com/amiekisiak"></a>
-            <div class="ProjectName">
-            <h3>Future Project</h3>
+        <!--Contact section-->
+        <div class="ContactMe">
+          <h2>Contact</h2>
+          
+          <ul class="SectionContact">
+            <li class="contact">phone: 07000000</li>
+            <li class="contact">email: amiekisiak@gmail.com</li>
+            <li class="contact" a href="https://www.linkedin.com/in/aleksandra-m-ab9a4111a/">LinkedIn</a>
+            </li>
+            <li class="contact" a href="https://github.com/amiekisiak">GitHub</a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
-
-  </main>
+    </main>
 
 
 
-  <section class="footer" section id="footer">
+    <section class="footer" section id="footer">
+      <p> &#169 Aleksandra Miekisiak 2022</p>
 
-    <p>Phone:0700000</p>
-    <p> <a href="https://amiekisiak.github.io/project-horiseon/" class="btn">Webpage</a></p>
-    <p><a href="https://github.com/amiekisiak" class="btn">MyGithub</a></p>
-    <p>email.gmail.com</p>
-
-  </section>
-
+    </section>
 </body>
-
-
+ 
 </html>
