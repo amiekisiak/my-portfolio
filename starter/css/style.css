@@ -86,10 +86,11 @@ header h1 {
 
 .hero-banner {
   display: flex;
+  background-image: url(/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  background-repeat: no-repeat;
   flex-direction: row-reverse;
   background-size: cover;
-  background-image: url(/images/jr-korpa-9XngoIpxcEo-unsplash.jpg/);
-  width: 100%;
+  max-width: 100%;
   font-size: 2rem;
   padding: 110px;
   height: 100px;
