@@ -85,7 +85,7 @@ header h1 {
 /* hero banner */
 
 .hero-banner {
-  background-image: url(/starter/image/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+  
   display: flex;
   background-repeat: no-repeat;
   flex-direction: row-reverse;
