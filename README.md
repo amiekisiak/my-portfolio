@@ -9,9 +9,11 @@ All the corresponding sections and all the external links of the website were li
 N/A
 
 ## Usage
- URL of the deployed webpage:
- Screenshot: 
-
+ URL of the deployed webpage:  https://amiekisiak.github.io/my-portfolio/
+ 
+ Screenshot of the deployed webpage: 
+ 
+ ![my-portfolio-screenshoot png](https://user-images.githubusercontent.com/117371691/210186195-d151c49b-5d5c-4392-a352-77c701b076c7.png)
 
 
 
