@@ -85,13 +85,13 @@ header h1 {
 /* hero banner */
 
 .hero-banner {
+  background-image: url(/starter/image/jr-korpa-9XngoIpxcEo-unsplash.jpg);
   display: flex;
-  background-image: url(/images/jr-korpa-9XngoIpxcEo-unsplash.jpg);
   background-repeat: no-repeat;
   flex-direction: row-reverse;
   background-size: cover;
   max-width: 100%;
-  font-size: 2rem;
+  font-size: 1.9rem;
   padding: 110px;
   height: 100px;
   color: var(--color2);
